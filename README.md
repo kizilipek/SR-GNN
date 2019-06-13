@@ -20,4 +20,6 @@ After the download please put the folders under the datasets/ and rename them as
 Official implementation and the paper can be found [here](https://github.com/CRIPAC-DIG/SR-GNN). 
 Borrowed the data preprocessing from original repository, including diginetica and yoochoose.
 
+config/dev_config.yml: change the dataset name which you want to train model for.  
+
 
