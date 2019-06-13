@@ -1,0 +1,9 @@
+model:
+  epoch: 30
+  batchSize: 100
+  hiddenSize: 100
+  l2: 0.00001
+  lr: 0.001
+  step: 1
+  dataset: yoochoose1_64
+  method: g
