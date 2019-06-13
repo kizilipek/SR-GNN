@@ -6,11 +6,12 @@ Official implementation and the paper can be found [here](https://github.com/CRI
 Borrowed the data preprocessing from original repository, including diginetica and yoochoose.
 
 There are two datasets used in the paper. 
-- Yoochoose 
-- Diginetica
+- Yoochoose: <http://2015.recsyschallenge.com/challenge.html>
+- Diginetica: <http://cikm2016.cs.iupui.edu/cikm-cup>
 
 Since the link for yoochose dataset does not work in the original repo you can download the data
 
+```bash
 curl -Lo yoochoose-data.7z https://s3-eu-west-1.amazonaws.com/yc-rdata/yoochoose-data.7z
 7z x yoochoose-data.7z
 
@@ -30,4 +31,6 @@ Everything is Ok
 Files: 4
 Size:       1914111754
 Compressed: 287211932
+```
 
+After the download please put the folders under the datasets/ and rename them as only "yoochoose" and "diginetica". After moving the folders recall the preprocess script. 
